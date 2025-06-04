@@ -71,13 +71,14 @@ SELECT
 	,p.id
 FROM drivers_license as dl
 JOIN person as p
-ON p.license_id = dl.id
+	ON p.license_id = dl.id
 JOIN facebook_event_checkin as fb
-ON fb.person_id = p.id
-WHERE car_model = 'Model S'
-AND car_make = 'Tesla'
-AND gender = 'female'
-AND height BETWEEN 65 AND 67; 
+	ON fb.person_id = p.id
+WHERE 
+	car_model = 'Model S'
+	AND car_make = 'Tesla'
+	AND gender = 'female'
+	AND height BETWEEN 65 AND 67; 
 -- Output: Miranda Priestley
 
 -- Congrats, you found the brains behind the murder! 
