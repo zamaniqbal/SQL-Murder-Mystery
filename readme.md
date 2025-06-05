@@ -1,4 +1,4 @@
-# SQL Murder Mystery
+# SQL Murder Mystery 🕵️‍♂️
 
 https://mystery.knightlab.com/
 ![alt text](image.png)
