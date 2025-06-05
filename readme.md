@@ -15,9 +15,9 @@ WHERE
 	AND date = 20180115
 	AND type = 'murder';
 ```
-### Output tells us there are two witnesses
-### Witness 1 lives at THE LAST house of "Northwestern Dr"
-### Witness 2 is named Annabel, lives somewhere on "Franklin Ave"
+Output tells us there are two witnesses
+Witness 1 lives at THE LAST house of "Northwestern Dr"
+Witness 2 is named Annabel, lives somewhere on "Franklin Ave"
 
 ### Use witness (person) table to gather more info
 ### Witness 1
@@ -26,8 +26,8 @@ SELECT *
 FROM person
 WHERE address_street_name LIKE 'North*'
 ORDER BY address_number DESC;
--- Morty Schapiro, id = 14887
 ```
+-Morty Schapiro, id = 14887
 
 ### Witness 2
 ```sql
@@ -38,7 +38,7 @@ WHERE
 	AND
 	address_street_name LIKE 'Franklin Ave%';
 ```
-### Annabel Miller, id = 16371
+-Annabel Miller, id = 16371
 
 ### Lookup both witness' interviews
 ```sql
@@ -72,7 +72,7 @@ WHERE
 	AND membership_status = 'gold'
 	AND plate_number LIKE '%H42W%';
 ```
-### Output: Jeremy Bowers, person_id = 67318
+-Output: Jeremy Bowers, person_id = 67318
 
 ### Lookup killer's interview
 ```sql
@@ -100,7 +100,7 @@ WHERE
 	AND gender = 'female'
 	AND height BETWEEN 65 AND 67;
 ```
-### Output: Miranda Priestley
+-Output: Miranda Priestley
 
 ### Congrats, you found the brains behind the murder! 
 ### Everyone in SQL City hails you as the greatest SQL detective of all time. 
