@@ -3,6 +3,11 @@
 https://mystery.knightlab.com/
 ![alt text](image.png)
 
+## The Schema
+
+![image](https://github.com/user-attachments/assets/9a723535-34cd-4707-9c2f-3c07df24f0db)
+
+
 ## My Solutions Below:
 
 ### Find information about witnesses in crime scene report table
